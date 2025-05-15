@@ -19,3 +19,10 @@ URL `amqp://guest:guest@localhost:5672` adalah alamat koneksi ke RabbitMQ. Kata 
 Berikut adalah tampilan saat RabbitMQ berhasil dijalankan.
 
 ![Running RabbitMQ](images/RabbitMQ_Running.png)
+
+- **Sending and Processing Event**
+
+Gambar berikut menunjukkan bahwa setelah program `publisher` dijalankan sebanyak dua kali, program `subscriber` berhasil menerima total 10 event yang dikirim. Hal ini membuktikan bahwa proses pengiriman dan penerimaan pesan melalui RabbitMQ berjalan dengan baik.
+
+![Subscriber Sending Event](images/SendingEvent_Subscriber.png)
+![Publisher Sending Event](images/SendingEvent_Publisher.png)
