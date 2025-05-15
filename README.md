@@ -26,3 +26,9 @@ Gambar berikut menunjukkan bahwa setelah program `publisher` dijalankan sebanyak
 
 ![Subscriber Sending Event](images/SendingEvent_Subscriber.png)
 ![Publisher Sending Event](images/SendingEvent_Publisher.png)
+
+- **Monitoring chart based on publisher**
+
+Grafik pada RabbitMQ menunjukkan lonjakan karena program `publisher` dijalankan beberapa kali dan mengirim pesan ke broker. Lonjakan tersebut mencerminkan aktivitas publish yang berhasil dan terpantau melalui dashboard.
+
+![Monitoring chart based on publisher](images/Monitoring_Chart_Case.png)
